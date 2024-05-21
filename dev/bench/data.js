@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715931330085,
+  "lastUpdate": 1716281320902,
   "repoUrl": "https://github.com/PsychoPunkSage/cacti",
   "entries": {
     "Benchmark": [
@@ -69,6 +69,44 @@ window.BENCHMARK_DATA = {
             "range": "±2.73%",
             "unit": "ops/sec",
             "extra": "179 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zondervan.v.calvez@accenture.com",
+            "name": "zondervancalvez",
+            "username": "zondervancalvez"
+          },
+          "committer": {
+            "email": "petermetz@users.noreply.github.com",
+            "name": "Peter Somogyvari",
+            "username": "petermetz"
+          },
+          "distinct": true,
+          "id": "eacaef3cc52512b74b11cdc1b8c1b09e4d82460e",
+          "message": "chore(github): shorten ci.yaml workflow and job names\n\nce - cactus-example\ncp - cactus-plugin\ncpk - cactus-plugin-keychain\ncpl - cactus-plugin-ledger\ncplc - cactus-plugin-ledger-connector\nplc - plugin-ledger-connector\ncpp - cactus-plugin-persistence\nct - cactus-test\nctp - cactus-test-plugin\n\nFixes: hyperledger#2624\n\nSigned-off-by: zondervancalvez <zondervan.v.calvez@accenture.com>",
+          "timestamp": "2024-05-18T16:17:18-07:00",
+          "tree_id": "36312b30100d2d6e1069e72c17470d211eadc167",
+          "url": "https://github.com/PsychoPunkSage/cacti/commit/eacaef3cc52512b74b11cdc1b8c1b09e4d82460e"
+        },
+        "date": 1716281318539,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "cmd-api-server_HTTP_GET_getOpenApiSpecV1",
+            "value": 564,
+            "range": "±1.68%",
+            "unit": "ops/sec",
+            "extra": "178 samples"
+          },
+          {
+            "name": "cmd-api-server_gRPC_GetOpenApiSpecV1",
+            "value": 354,
+            "range": "±1.26%",
+            "unit": "ops/sec",
+            "extra": "181 samples"
           }
         ]
       }
